@@ -1,4 +1,4 @@
-# Example Code for Launchpads
+# Example Code for Launchpads Brad
 For each of the launchpads required for this class, we want to ensure that these processors not only work but you can utilize UART on your laptop. To be able to communicate using UART, you will need to install a program such as [PUTTY](http://www.putty.org/) or [RealTerm](https://sourceforge.net/projects/realterm/), as well as a USB-UART cable. We can provide cables during lab for a few of you; however it would be in your best interest to purchase your own.
 
 ## Importing your code into CCS
