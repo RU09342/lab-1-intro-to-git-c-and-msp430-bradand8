@@ -10,7 +10,9 @@ and then printed to the screen.
    math.h
 
    Created on: 9/18/2017
+   
    Last edited: 9/20/2017
+   
    Author: Bradley Anderson
 
 */
@@ -30,6 +32,7 @@ int main()
 }
 
 int math(int num1, int num2, char operator, {
+
 	/*performs various operations based on the chosen operator. Accepted Operators (+,
 	- ,* , / , %) */
 
