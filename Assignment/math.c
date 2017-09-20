@@ -1,0 +1,58 @@
+/* 
+   math.h
+
+   Created on: 9/18/2017
+   Last edited: 9/20/2017
+   Author: Bradley Anderson
+
+*/
+
+
+
+
+#include <stdio.h>
+
+int math(int num1, int num2, char operator);
+
+int main()
+{
+	printf("%f", math(9,3,'+'));
+
+	return 0;
+}
+
+int math(int num1, int num2, char operator, float result) {
+	/*performs various operations based on the chosen operator. Accepted Operators (+,
+	- ,* , / , %) */
+
+	float result = 0;
+	switch(operator)
+	{
+		case '+' : 
+			result = num1 + num2; /*adds two numbers and stores value in "result" */
+			printf("%f", result);
+			break;
+		
+		case '-' :
+			result = num1 - num2; /* subtracts two numbers and stores value in "result" */
+			printf("%f", result);
+			break;
+
+		case '*' :
+			result = num1 * num2; /* multiplies two numbers and stores value in "result" */
+			printf("%f", result);
+			break;
+			
+		case '/' :
+			result = num1 / num2; /*divides number one by number two and stores value in "result" */
+			printf("%f", result);
+			break;
+
+		case '%' :
+			result = num1 % num2; /*divides num1 by num2 and stores the value of the remainder in "result" */
+			printf("%f", result);
+			break;
+	}
+		return result;
+	}
+
