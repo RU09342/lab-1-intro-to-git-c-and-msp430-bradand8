@@ -10,7 +10,9 @@ and then printed to the screen.
    math.h
 
    Created on: 9/18/2017
+   
    Last edited: 9/20/2017
+   
    Author: Bradley Anderson
 
 */
