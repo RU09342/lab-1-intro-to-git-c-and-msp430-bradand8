@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+
+
+int math(int num1, int num2, char operator, float result) {
+	
+
+	switch(operator)
+	{
+		case '+' : 
+			result = num1 + num2; /*adds two numbers and stores value in "result" */
+			printf("%f", result);
+			break;
+		
+		case '-' :
+			result = num1 - num2; /* subtracts two numbers and stores value in "result" */
+			printf("%f", result);
+			break;
+
+		case '*' :
+			result = num1 * num2; /* multiplies two numbers and stores value in "result" */
+			printf("%f", result);
+			break;
+			
+		case '/' :
+			result = num1 / num2; /*divides number one by number two and stores value in "result" */
+			printf("%f", result);
+			break;
+
+		case '%' :
+			result = num1 % num2; /*divides num1 by num2 and stores the value of the remainder in "result" */
+			printf("%f", result);
+			break;
+	}
+		return result;
+	}
