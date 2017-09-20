@@ -32,6 +32,7 @@ int main()
 }
 
 int math(int num1, int num2, char operator, {
+
 	/*performs various operations based on the chosen operator. Accepted Operators (+,
 	- ,* , / , %) */
 
