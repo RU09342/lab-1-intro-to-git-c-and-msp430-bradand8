@@ -1,10 +1,19 @@
 #include <stdio.h>
 
+int math(int num1, int num2, char operator);
 
+int main()
+{
+	printf("%f", math(9,3,'+'));
+
+	return 0;
+}
 
 int math(int num1, int num2, char operator, float result) {
-	
+	/*performs various operations based on the chosen operator. Accepted Operators (+,
+	- ,* , / , %) */
 
+	float result = 0;
 	switch(operator)
 	{
 		case '+' : 
@@ -34,3 +43,4 @@ int math(int num1, int num2, char operator, float result) {
 	}
 		return result;
 	}
+
