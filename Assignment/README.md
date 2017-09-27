@@ -6,6 +6,7 @@ operators are as follows; '+' for addition, '-' for subtraction, '*' for multipl
 After an operation is carried out, the end value is stored in the variable "result" which is returned to the main function
 and then printed to the screen.
 
+///
 /* 
    math.h
 
@@ -66,4 +67,5 @@ int math(int num1, int num2, char operator, {
 	}
 		return result;
 	}
+	\\\
 
