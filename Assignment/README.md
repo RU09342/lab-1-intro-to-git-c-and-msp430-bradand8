@@ -1,3 +1,10 @@
+#MSP430 Math Library
+
+
+
+
+
+
 The following code is a representation of a simple calculator in C programming launguage, defined as the int math function. The 
 int math function takes two integer numbers whose values can be set in the int main function. ( 9 and 3 were chosen arbitrarly for 
 this example) In the int math statement, a switch statement is used to compute different operations based on the selected operator.
