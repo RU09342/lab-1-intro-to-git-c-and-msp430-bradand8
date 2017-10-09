@@ -1,17 +1,31 @@
-#MSP430 Math Library
+## MSP430 Math Library
 
+This Library can be used on any MSP430 processor. 
 
+## Dependencies 
 
+The only dependency for this library is that the specific processor header file is included in the main file. The MSP430.h file, for example, includes all Texas Instruments MSP430 based processors.
 
+## How to Use
 
+With the math.h and math.c files included in a project, all that is needed to use the math function is to call the function and specify two integer numbers and an operator (Accepted Operators are + , - , * , / , % ) as shown below:
 
-The following code is a representation of a simple calculator in C programming launguage, defined as the int math function. The 
+``` math(int 1, int2, operator); ```
+
+## Description of Code
+
+The following code is a representation of a simple calculator in C programming language, defined as the int math function (math.h). The 
 int math function takes two integer numbers whose values can be set in the int main function. ( 9 and 3 were chosen arbitrarly for 
 this example) In the int math statement, a switch statement is used to compute different operations based on the selected operator.
 In this example the addition operator, '+' , was selected resulting in the numbers 9 and 3 to be added together. The choices for 
-operators are as follows; '+' for addition, '-' for subtraction, '*' for multiplication, '/' for division, and '%' for modulus. 
+operators are as follows; '+' for addition, '-' for subtraction, '\*' for multiplication, '/' for division, and '%' for modulus. 
 After an operation is carried out, the end value is stored in the variable "result" which is returned to the main function
-and then printed to the screen.
+and then printed to the screen in this code example.
+
+
+
+
+## Code Example
 
 ```c
 /* 
@@ -75,4 +89,6 @@ int math(int num1, int num2, char operator, {
 		return result;
 	}
 ```
+
+  ###### Created by Bradley Anderson
 
